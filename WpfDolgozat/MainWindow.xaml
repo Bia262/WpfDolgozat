@@ -12,7 +12,7 @@
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="sataGrid" Grid.Row="0"/>
+        <DataGrid x:Name="dataGrid" Grid.Row="0"/>
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10">
             <Label Content="Név:" Margin="5"/>
             <TextBox x:Name="nev" Width="200" Margin="5"/>

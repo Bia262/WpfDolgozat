@@ -8,10 +8,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace WpfDolgozat
 {
-    class Dolgozat
+    public class Dolgozat
     {
         public String Nev {  get; set; }
         public int Eletkor { get; set; }
